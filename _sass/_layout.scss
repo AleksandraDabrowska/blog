@@ -215,6 +215,12 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    
+    p{
+       text-align: justify;
+       orphans: 3;
+       widows: 3; 
+    }
 
     h2 {
         font-size: 32px;
